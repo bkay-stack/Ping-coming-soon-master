@@ -3,33 +3,68 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&family=Josefin+Sans:wght@
+300;400;600&family=Libre+Franklin:wght@300;600;700&family=
+Overpass:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/Css/style.css">
 </head>
 <body> 
 
+  <div class="section-card">
+    <div class="header-div">
+      <h2>
+        PING<span class="dot">.</span>
+      </h2>
+    </div>
+    <div class="section-content-div">
+      <p class="big-text-header">
+        We are launching <span class="black-text">soon!</span>
+      </p>
+       
+      <p class="small-text-header">
+        Subscribe and get notified
+      </p>
+     
+    </div>
 
-  We are launching soon!
+    <form action="" class="form-header">
+     <div>
+      <input type="email" name="email" id="email" placeholder="Your email address..." required>  
+      <p class="error active">Plase provide a valid emalil address</p>
+     </div>
+      <div>
+        <button type="submit">Notify Me</button>
+      </div>
+    </form>
 
-  Subscribe and get notified
+    <div class="card-image">
+      <img src="./images/illustration-dashboard.png" alt="">
+    </div>
 
-  Notify Me
+  </div>
 
-  &copy; Copyright Ping. All rights reserved.
 
-  <footer>
+
+  <!-- <footer>
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="#">Your Name Here</a>.
     </p>
-  </footer>
+  </footer> -->
+
+  <script src="app.js" defer></script>
 </body>
 </html>
+
+<!-- 
+We are launching soon!
+
+Subscribe and get notified
+
+Notify Me
+
+&copy; Copyright Ping. All rights reserved. -->
