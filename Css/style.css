@@ -127,6 +127,27 @@ ul {
     flex-direction: row;
 }
 
+.socials {
+   margin-top: 8rem;
+   display: flex;
+   gap: 2rem;
+  
+}
+
+ul li {
+    list-style: none;
+   
+}
+
+ul i {
+    font-size: 25px;
+    background-color:#fff;
+    color: hsl(223, 87%, 63%);
+    padding: .54rem;
+    border-radius: 50% ;
+    box-shadow: 5px 10px 10px hsl(0, 0%, 59%);
+   
+}
 
 /* Footer */
 

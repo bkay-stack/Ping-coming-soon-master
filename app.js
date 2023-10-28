@@ -16,16 +16,13 @@ const borderError = document.querySelector('.border-error')
   btn.addEventListener('click', (e) => {
       if (input.value === '') {
          e.preventDefault();
-         errorMsg.style.display = 'block';
-         borderError.style.border = '1px solid hsl(354, 100%, 66%)'
+         errorMsg.style.display = 'block';                      
+         borderError.style.border = '1px solid hsl(354, 100%, 66%)';
          setTimeout(() => {
-            errorMsg.style.display = 'none';
+            errorMsg.style.display = 'none';  
             borderError.style.border = '';
             const clear = input.value = '';
          
          },1000)
       }  
   })
-
-
-  console.log(btn)
