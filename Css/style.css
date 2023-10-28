@@ -82,6 +82,8 @@ h2 .dot {
     transition: 0.3s ease-in;
      width: 100%;
 }
+  
+
 
 form button {
     border: none;
@@ -98,10 +100,11 @@ form button {
 
 
 
+
+
 .error {
     color: hsl(0, 93%, 68%);
     text-align: center; 
- 
     font-size: 0.9rem;
     margin-bottom: 1rem;
    
