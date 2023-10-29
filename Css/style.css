@@ -149,6 +149,11 @@ ul i {
    
 }
 
+ul i:hover {
+    transform: scale(1.7);
+    transition: 1s ease-in-out all;
+}
+
 /* Footer */
 
 footer {
